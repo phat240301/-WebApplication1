@@ -5,7 +5,7 @@ namespace WebApplication1
         //public DateTime Date { get; set; }
         public String Id { get; set; }
 
-        public int TemperatureC { get; set; }
+        public String TemperatureC { get; set; }
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
